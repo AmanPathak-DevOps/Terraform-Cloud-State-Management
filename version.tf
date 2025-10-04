@@ -23,4 +23,6 @@ terraform {
   #     } 
   #   }
 
+  cloud {}
+
 }
