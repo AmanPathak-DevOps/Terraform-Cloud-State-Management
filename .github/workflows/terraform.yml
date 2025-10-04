@@ -19,7 +19,7 @@ on:
 
 env:
   TF_API_TOKEN: ${{ secrets.TF_API_TOKEN }}
-  TF_WORKSPACE: ${{ gituhb.event.inputs.workspace }}
+  TF_WORKSPACE: ${{ github.event.inputs.workspace }}
 permissions:
   contents: read
 
