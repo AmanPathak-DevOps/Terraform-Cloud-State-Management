@@ -3,10 +3,6 @@ name: '🔨 Infrastructure Configuring using Terraform on AWS'
 on: 
   workflow_dispatch:
     inputs:
-      workspace:
-        description: 'Terraform workspace'
-        required: true
-        default: workspace
       action:
         type: choice
         description: 'Terraform Action'
@@ -19,7 +15,7 @@ on:
 
 env:
   TF_API_TOKEN: ${{ secrets.TF_API_TOKEN }}
-  TF_WORKSPACE: ${{ github.event.inputs.workspace }}
+  TF_WORKSPACE: ${{ secrets.TF_WORKSPACE }}
   TF_CLOUD_ORGANIZATION: ${{ secrets.TF_CLOUD_ORGANIZATION }}
 permissions:
   contents: read
