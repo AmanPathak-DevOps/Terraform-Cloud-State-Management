@@ -1,4 +1,4 @@
-name: '🔨 Infrastructure Configuring using Terraform on AWS' 
+name: '🔨 Infrastructure Configuring using Terraform on AWS(Terraform Cloud Demo)' 
 
 on: 
   workflow_dispatch:
