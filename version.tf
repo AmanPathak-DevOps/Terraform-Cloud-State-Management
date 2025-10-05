@@ -15,7 +15,7 @@ terraform {
 
   ## Use for CLI-Driven and local terraform operations
   # cloud { 
-    
+
   #   organization = "amanpathak-devops" 
 
   #   workspaces { 
