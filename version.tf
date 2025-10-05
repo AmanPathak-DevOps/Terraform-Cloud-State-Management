@@ -14,14 +14,14 @@ terraform {
   }
 
   ## Use for CLI-Driven and local terraform operations
-  #   cloud { 
+  # cloud { 
+    
+  #   organization = "amanpathak-devops" 
 
-  #     organization = "amanpathak-devops" 
-
-  #     workspaces { 
-  #       name = "terraform-cloud-cli-driven-demo" 
-  #     } 
-  #   }
+  #   workspaces { 
+  #     name = "demo-cli-driven-aws-workspace" 
+  #   } 
+  # } 
 
   cloud {}
 
